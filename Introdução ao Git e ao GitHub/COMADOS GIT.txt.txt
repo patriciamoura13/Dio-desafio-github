@@ -1,0 +1,146 @@
+**git add**
+Move as alterações do diretório de trabalho para a área de staging. Assim, você tem a oportunidade de preparar um instantâneo antes de realizar o commit ao histórico oficial.
+
+Tutoriais relacionados
+Salvar alterações: git add
+Aprenda o Git com o Bitbucket Cloud: copie o Repositório do Git e adicione arquivos
+Usar ramificações: git merge
+Inspecionar repositório: git status
+**Git Branch**
+Esse comando é a ferramenta de administração de ramificações de uso geral. Permite criar ambientes de desenvolvimento isolados em um único repositório.
+
+Tutoriais relacionados
+Usar ramificações: git branch
+Usar ramificações: git checkout
+Usar ramificações: git merge
+Aprenda o Git com o Bitbucket Cloud: use uma ramificação do Git para fazer o merge de um arquivo
+**git checkout**
+Além de verificar commits antigos e revisões de arquivos antigos, o git checkout também é a forma de navegar pelas ramificações existentes. Combinado com os comandos básicos do Git, é a maneira de trabalhar em determinada linha de desenvolvimento.
+
+Tutoriais relacionados
+Usar ramificações: git checkout
+Desfazer alterações: git checkout
+Comparar fluxos de trabalho: fluxo de trabalho do Gitflow
+**git clean**
+Remove os arquivos não monitorados do diretório de trabalho. Esse é o correspondente lógico do git reset, que (em geral) só opera em arquivos monitorados.
+
+Tutoriais relacionados
+Desfazer alterações: git clean
+**git clone**
+Cria cópia de um Repositório do Git existente. A clonagem é o modo mais comum dos desenvolvedores obterem uma cópia de trabalho de um repositório central.
+
+Tutoriais relacionados
+**Git LFS**
+Comparar fluxos de trabalho: fluxo de trabalho de bifurcação
+Configurar repositório: git clone
+**Git commit**
+Faz um commit do instantâneo preparado no histórico do projeto. Combinado com git add, esse processo define o fluxo de trabalho básico para todos os usuários do Git.
+
+Tutoriais relacionados
+Usar ramificações: git merge
+Reescrever o histórico: git commit --amend
+Aprenda o Git com o Bitbucket Cloud: copie o Repositório do Git e adicione arquivos
+Salvar alterações: git add
+**git commit --amend**
+Informação da marcação -- amend ao git commit permite corrigir o commit mais recente. Isso é muito útil quando você esquece de preparar um arquivo ou para omitir informações importantes da mensagem do commit.
+
+Tutoriais relacionados
+Reescrever o histórico: git commit --amend
+**git config**
+Uma maneira conveniente de definir opções de configuração para a instalação do Git. Em geral, sua utilização só é necessária de modo imediato após a instalação do Git em máquina de desenvolvimento nova.
+
+Tutoriais relacionados
+Configurar repositório: git config3
+**Git LFS**
+Instalar o Git: instale o Git no Mac OS X
+Instalar o Git: instale o Git no Linux
+**git fetch**
+A busca faz o download a partir da ramificação de outro repositório, junto com todos os commits e arquivos associados. Mas, não tenta integrar nada em o repositório local. Assim, você tem a oportunidade de inspecionar as alterações antes de fazer o merge no projeto.
+
+Tutoriais relacionados
+Sincronizar: git fetch
+Refs e o Reflog: Refspecs
+Sincronizar: git pull
+**git init**
+Inicializa novo repositório do Git. Se você quiser colocar um projeto sob controle de revisão, este é o primeiro comando que você precisa aprender.
+
+Tutoriais relacionados
+Configurar repositório: git init
+**git log**
+Permite explorar as revisões anteriores de determinado projeto. Ele oferece várias opções de formatação para exibir o commit de instantâneos.
+
+Tutoriais relacionados
+Inspecionar repositório: git log
+Registro avançado do Git: filtrar o histórico de commits
+Registro avançado do Git: formatação da saída do log
+Tutoriais avançados do Git: visão geral
+**Git merge**
+Uma maneira poderosa de integrar alterações de ramificações divergentes. Após bifurcar o histórico do projeto com o git branch, o git merge permite unificar o histórico de novo.
+
+Tutoriais relacionados
+Merge versus rebase: passo a passo do fluxo de trabalho
+Usar ramificações: git merge
+Comparar fluxos de trabalho: fluxo de trabalho do Gitflow
+Merge versus rebase: visão geral conceitual
+**git pull**
+É a versão automatizada do git fetch. Faz o download de ramificação de um repositório remoto e faz a mesclagem imediata na ramificação atual. É o equivalente Git do svn update.
+
+Tutoriais relacionados
+Sincronizar: git pull
+Comparação de fluxos de trabalho: fluxo de trabalho centralizado
+**Git LFS**
+Comparar fluxos de trabalho: fluxo de trabalho de bifurcação
+**Git push**
+É o oposto de buscar (com algumas ressalvas). Permite que você mova uma ramificação local para outro repositório, o que é um modo conveniente de publicar as contribuições. É semelhante ao svn commit, mas envia uma série de commits em vez de um único conjunto de alterações.
+
+Tutoriais relacionados
+Sincronizar: git push
+Refs e o Reflog: Refspecs
+Comparar fluxos de trabalho: fluxo de trabalho do Gitflow
+**Git LFS**
+**git rebase**
+Permite mover ramificações, o que ajuda a evitar commits de merge desnecessários. A história linear resultante é, em geral, muito mais fácil de entender e explorar.
+
+Tutoriais relacionados
+Merge versus rebase: passo a passo do fluxo de trabalho
+Reescrever o histórico: git rebase -i
+Merge versus rebase: visão geral conceitual
+Reescrever o histórico: git rebase
+**git rebase -i**
+A marcação -i é usada para iniciar uma sessão de rebase interativa. Ela apresenta todos os benefícios de um rebase normal, porém, dá a oportunidade de adicionar, editar ou excluir commits durante o processo.
+
+Tutoriais relacionados
+Reescrever o histórico: git rebase -i
+**git reflog**
+O Git mantém o controle das atualizações na ponta das ramificações usando um mecanismo chamado reflog. Ele permite retornar aos conjuntos de alterações mesmo que não estejam referenciados por nenhuma ramificação ou marcação.
+
+Tutoriais relacionados
+Reescrever o histórico: git reflog
+**git remote**
+Uma ferramenta prática para administrar conexões remotas. Em vez de passar o URL completo para os comandos fetch, pull e push, ele permite usar um atalho mais significativo.
+
+Tutoriais relacionados
+Sincronizar: git remote
+**git reset**
+Desfaz as alterações nos arquivos no diretório de trabalho. A redefinição permite limpar ou remover por completo as alterações que não foram enviadas a um repositório público.
+
+Tutoriais relacionados
+Desfazer alterações: git reset
+Reset, Checkout e Revert: operações no nível do commit
+Reset, Checkout e Revert: operações em nível de arquivo
+Desfazer alterações: **git clean**
+**git revert**
+Desfaz o commit de um instantâneo. Ao identificar um commit com falha, uma maneira fácil e segura de realizar a sua remoção da base de código é por meio da reversão.
+
+Tutoriais relacionados
+Desfazer alterações: git revert
+Reset, Checkout e Revert: operações no nível do commit
+Reset, Checkout e Revert: resumo
+**git status**
+Exibe o estado do diretório de trabalho e o instantâneo preparado. Utilize essa opção em conjunto com os comandos git add e o git commit para ver com precisão o que vai ser incluído no próximo instantâneo.
+
+Tutoriais relacionados
+Inspecionar repositório: git status
+**Git stash**
+Aprenda o Git com o Bitbucket Cloud: use uma ramificação do Git para fazer o merge de um arquivo
+Aprenda o Git com o Bitbucket Cloud: copie o Repositório do Git e adicione arquivos
